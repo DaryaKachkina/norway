@@ -167,3 +167,72 @@ body{
     background-size: cover;
     grid-row-end: span 2;
 }
+
+
+
+.main4{
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main4 h1{
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+.main4 p{
+    line-height: 20px;
+}
+
+.main5{
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 525px 525px;
+    grid-template-rows: 350px auto;
+    grid-gap: 20px;    
+}
+.main5_1{
+    background: url(./img/img10.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.main5_2{
+    background: url(./img/img11.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.main5_3, .main5_4{
+    padding:20px 30px;
+    line-height: 20px;
+    color: white;
+}
+
+.main6{
+    height: 400px;
+    background: url(./img/img12.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.main6_1_1, .main6_1_2{
+    width: 30%;
+    color: white;
+}
+.main6_1_1 h1{
+    letter-spacing: 3px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.main6_1_1 p{
+    line-height: 20px;
+}
+.main6_1_2 li{
+    line-height: 25px;
+}
+.main6_1{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
